@@ -5,11 +5,64 @@ body {
     height: 100vh;
     background-color: black;
     background-image: url("../images/background-body.gif");
-    margin: 0;
-    overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0;
+
+}
+
+.background-container {
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+.background-image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    /* Ajustez selon vos besoins */
+    height: 48%;
+    background-image: url("../images/pic3.jpg");
+    background-size: cover;
+
+}
+
+.background-image-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    /* Ajustez selon vos besoins */
+    height: 48%;
+    background-image: url("../images/pic4.jpg");
+    background-size: cover;
+}
+
+.background-image-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    /* Ajustez selon vos besoins */
+    height: 49%;
+    background-image: url("../images/pic6.jpg");
+    background-size: cover;
+
+}
+
+.background-image-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    /* Ajustez selon vos besoins */
+    height: 49%;
+    background-image: url("../images/pic5.jpg");
+    background-size: cover;
+
 }
 
 /* Position the "No" button absolutely within body */
